@@ -69,6 +69,7 @@ public class Person {
             ages[id] = 0;
         }
 
+
         }
 
 //    public void remove(Person person){

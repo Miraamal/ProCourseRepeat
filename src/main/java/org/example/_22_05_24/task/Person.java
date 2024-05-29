@@ -70,15 +70,14 @@ public class Person {
         }
 
 
+    }
 
-        }
-
-//    public void remove(Person person){
+    //    public void remove(Person person){
 //
 //    }
     public static void main(String[] args) {
         Person person = new Person();
         person.removePersonById(5);
     }
-    }
+}
 

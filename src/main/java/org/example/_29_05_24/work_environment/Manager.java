@@ -1,7 +1,5 @@
 package org.example._29_05_24.work_environment;
 
-import org.example._29_05_24.theater_task.Employees;
-
 /*
 Дополнительное поле:
 subordinatesCount (int) - количество подчиненных.

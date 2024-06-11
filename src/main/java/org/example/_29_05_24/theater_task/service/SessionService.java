@@ -6,7 +6,6 @@ import org.example._29_05_24.theater_task.model.film.Movie;
 import org.example._29_05_24.theater_task.model.user.Role;
 import org.example._29_05_24.theater_task.model.user.User;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,8 +22,6 @@ public class SessionService  {
 
     public Session createSession(Movie film, LocalDateTime dateTime, int ticketsQuantity, User user, String hallName) {
         checkRole(user);
-
-
         Session session = new Session(film, dateTime,ticketsQuantity, hallName);
         idToSession.put(session.getId(),session);
         return session;

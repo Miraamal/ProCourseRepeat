@@ -1,0 +1,9 @@
+Interface BookInterface - add genre, add book
+class Book - count, name, genre, author, implements BI
+Abstract class User -  id, name, date
+extends from User Class Reader - List<Books>  and Class Librarian - List<Readers>
+class Library (book, readers, librarian)
+Class ServiceLibrary with all methods (edit, remove, add, sort, check)
+Class LibraryApp - main
+
+

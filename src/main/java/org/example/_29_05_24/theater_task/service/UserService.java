@@ -4,7 +4,6 @@ package org.example._29_05_24.theater_task.service;
 import org.example._29_05_24.theater_task.model.user.User;
 
 import java.util.ArrayList;
-
 import java.util.List;
 
 
@@ -18,7 +17,6 @@ public class UserService {
 
 
     public void addUser(User user){
-        users.add(user);
         for (User exuser : users){
             if (exuser.getName().equals(user.getName())){
                 throw new IllegalArgumentException("User with this name exists");

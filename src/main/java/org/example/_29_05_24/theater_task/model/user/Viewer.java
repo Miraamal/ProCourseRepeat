@@ -16,4 +16,13 @@ public class Viewer extends UserImpl {
     public int hashCode() {
         return super.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return "Viewer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", role=" + role + //"hashcode = " + hashCode()
+                '}';
+    }
 }

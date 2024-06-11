@@ -46,4 +46,14 @@ public class Ticket {
     public int getSeatNumber() {
         return seatNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "id=" + id +
+                ", user=" + user +
+                ", hallName='" + hallName + '\'' +
+                ", seatNumber=" + seatNumber +
+                '}';
+    }
 }

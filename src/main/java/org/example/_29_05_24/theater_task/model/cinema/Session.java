@@ -18,6 +18,7 @@ public class Session {
         this.id = count++;
         this.film = film;
         this.dateTime = dateTime;
+        this.tickets = new ArrayList<>();
         for (int i = 1; i <= ticketsQuantity ; i++) {
            Ticket ticket = new Ticket(this, hallName, i );
            tickets.add(ticket);
@@ -61,4 +62,13 @@ public class Session {
        return ticket;
     }
 
+    @Override
+    public String toString() {
+        return "Session{" +
+                "id=" + id +
+                ", film=" + film +
+                ", dateTime=" + dateTime +
+                ", tickets=" + tickets +
+                '}';
+    }
 }
